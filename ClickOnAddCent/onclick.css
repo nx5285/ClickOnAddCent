@@ -1,0 +1,33 @@
+body,p{
+	margin: 0;
+}
+#box{
+	width: 500px;
+	height: 50px;
+	border: 1px solid black;
+	position: relative;
+	margin: 200px auto;
+}
+#bg{
+	width: 0;
+	height: 100%;
+	background-color: deeppink;
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+}
+p{
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+}
+span{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 5px;
+	line-height: 50px;
+	position: relative;
+	top: 0;
+	opacity: 1;
+}
